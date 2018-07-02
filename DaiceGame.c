@@ -8,6 +8,8 @@ int main() {
   printf("What is your name?\n");
   scanf("%s",s);
   printf("Hello, %s!\n",s);
+<<<<<<< HEAD
+=======
 
   printf("Rolling the dice...\n");
 
@@ -22,10 +24,10 @@ int main() {
   printf("Total value: %d\n", totalDice);
 
   if(totalDice>7)
-    printf("You won\n");
+    printf("%s won\n",s);
   else
-    printf("You lost\n");
-
+    printf("%s lost\n",s);
+>>>>>>> refs/heads/experimental
     
   return 0;
 }
